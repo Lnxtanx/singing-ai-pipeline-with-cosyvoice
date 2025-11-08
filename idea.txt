@@ -1,0 +1,20 @@
+we will download this audion int .wav file.
+seprate vocals and music 
+vocals.wav
+instrumental.wav
+then change singing lnague too 3 language
+vocals_spanish.wav
+vocals_italian.wav
+vocals_russian.wav
+
+🎵 STAGE 3 — Merge new vocals with the background music
+song_spanish.wav
+song_italian.wav
+song_russian.wav
+
+
+1️⃣ Transcribe vocals.wav → lyrics_portuguese.txt
+2️⃣ Translate Portuguese lyrics → Spanish, Italian, Russian
+3️⃣ Generate new singing voices in each language using AI
+4️⃣ Merge each vocal with instrumental.wav
+5️⃣ Export final songs and share

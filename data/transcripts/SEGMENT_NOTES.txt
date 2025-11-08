@@ -1,0 +1,45 @@
+SEGMENT EXTRACTION NOTES
+========================
+
+REPEATING SECTIONS - NO NEED TO EXTRACT SEPARATELY:
+
+1. Lines 32-41 (Part 5 & Part 6):
+   - These are IDENTICAL to lines 11-20 (already extracted as segments)
+   - REUSE the existing segment analysis for these parts
+   - No need to extract/analyze again
+
+2. Last 3 lines (repeated):
+   - "Amigos para sempre vamos ser" appears 3 times at the end
+   - Can reuse the same audio segment multiple times in final composition
+
+EXTRACTED SEGMENTS:
+===================
+
+Part 1: 6-23s (trimmed to ~21.72s)
+   - Lines 1-4 (Pegue minha mão... vem brincar)
+   - 18 words extracted
+
+Part 2: 22-36s
+   - Lines 5-8 (Não terá rainha má... nos divertir)
+   - 4 lines
+
+Part 3: 35-53s (trimmed to ~51.46s)
+   - Lines 9-12 (Com a giramila... sol brilhar)
+   - 16 words (removed "as flores nasceram")
+
+Part 4: 52-70s
+   - Lines 13-17 (As flores nós vamos regar... vamos ser)
+   - 5 lines
+
+Part 5: REUSE Part 1 analysis (lines 11-20 repeat lines 1-10)
+Part 6: REUSE Part 2 analysis
+
+IMPLEMENTATION STRATEGY:
+========================
+
+For Spanish generation:
+- Generate Spanish vocals for Parts 1-4 only
+- For Part 5 & 6: Copy the Spanish audio from Parts 1 & 2
+- For final repeated lines: Copy/loop the same Spanish audio segment
+
+This saves processing time and ensures consistency across repeated sections!

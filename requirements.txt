@@ -1,0 +1,11 @@
+yt-dlp
+demucs
+ffmpeg-python
+whisper
+googletrans==4.0.0rc1
+torch
+torchaudio
+librosa
+soundfile
+openai
+pydub

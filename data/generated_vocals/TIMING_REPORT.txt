@@ -1,0 +1,49 @@
+SPANISH VOCALS TIMELINE REPORT
+======================================================================
+
+SEGMENT TIMELINE (Absolute Timestamps):
+----------------------------------------------------------------------
+
+Segment: segment_analysis_2025-11-08_12-11-16
+  Start: 6.00s
+  End: 23.00s
+  Duration: 17.00s
+  Lyrics: First 4 lines of the song
+
+Segment: segment_analysis_2025-11-08_12-21-25
+  Start: 22.00s
+  End: 36.00s
+  Duration: 14.00s
+  Lyrics: Part 2: 4 lines (Não terá rainha má / Nem bruxa pra espantar / Ser amiga, ser feliz / Vem, vamos nos divertir)
+
+Segment: segment_analysis_2025-11-08_12-26-07
+  Start: 35.00s
+  End: 53.00s
+  Duration: 18.00s
+  Lyrics: Part 3: 4 lines (Com a giramila juntos caminhar / Vamos perceber / Como é bom sonhar / E ver o sol brilhar)
+
+Segment: segment_analysis_2025-11-08_12-33-55
+  Start: 52.00s
+  End: 70.00s
+  Duration: 18.00s
+  Lyrics: Part 4: 5 lines (52s to 1:10)
+
+Segment: segment_analysis_2025-11-08_12-37-07
+  Start: 79.00s
+  End: 93.00s
+  Duration: 14.00s
+  Lyrics: Part 5: 4 lines (1:19 to 1:33) - Pegue minha mão, vem cá / O segredo vou te contar / Com giramila e vem dançar / Num castelo vem brincar
+
+Segment: segment_analysis_2025-11-08_12-40-25
+  Start: 93.00s
+  End: 107.00s
+  Duration: 14.00s
+  Lyrics: Part 6: 4 lines (1:33 to 1:47) - Não terá rainha má / Nem bruxa pra espantar / Ser amiga, ser feliz / Vem, vamos nos divertir
+
+
+======================================================================
+REUSED SEGMENTS:
+----------------------------------------------------------------------
+Part 5 (79-93s): Reuses Part 1 Spanish vocals
+Part 6 (93-107s): Reuses Part 2 Spanish vocals
+

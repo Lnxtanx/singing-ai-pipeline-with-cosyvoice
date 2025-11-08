@@ -1,0 +1,703 @@
+(.venv) PS C:\internships\assigment\studio-voice> python analyze_specific_segment.py
+
+======================================================================
+SPECIFIC SEGMENT ANALYSIS WITH DUAL TIME FRAMES
+======================================================================
+Output folder: segment_analysis_2025-11-08_12-21-25
+
+======================================================================
+EXTRACTING SPECIFIC VOCAL SEGMENT
+======================================================================
+Source: C:\internships\assigment\studio-voice\data\separated\vocals.wav
+Time range: 22.00s - 36.00s
+Duration: 14.00s
+Target lyrics: Part 2: 4 lines (Não terá rainha má / Nem bruxa pra espantar / Ser amiga, ser feliz / Vem, vamos nos divertir)
+✓ Extracted segment: segment_22-36s.wav
+
+======================================================================
+ANALYZING SEGMENT AUDIO
+======================================================================
+Duration: 14.00s
+Tempo: 166.7 BPM
+Beats: 34
+Onsets detected: 26
+
+======================================================================
+TRANSCRIBING WITH WORD TIMESTAMPS
+======================================================================
+Transcribed: Não terá rainha, mar Nem bruxa pra espantar Ser amiga é ser feliz Vem, vamos nos divertir
+
+#    Word            Relative             Absolute
+----------------------------------------------------------------------
+1    Não             0.00-0.26s    22.00-22.26s
+2    terá            0.26-0.96s    22.26-22.96s
+3    rainha          0.96-1.82s    22.96-23.82s
+4    mar             1.88-2.84s    23.88-24.84s
+5    Nem             2.84-4.38s    24.84-26.38s
+6    bruxa           4.38-5.18s    26.38-27.18s
+7    pra             5.18-5.60s    27.18-27.60s
+8    espantar        5.60-6.84s    27.60-28.84s
+9    Ser             6.84-7.32s    28.84-29.32s
+10   amiga           7.32-7.74s    29.32-29.74s
+11   é               7.74-8.14s    29.74-30.14s
+12   ser             8.14-8.32s    30.14-30.32s
+13   feliz           8.32-9.60s    30.32-31.60s
+14   Vem             9.60-10.76s    31.60-32.76s
+15   vamos           10.84-11.14s    32.84-33.14s
+16   nos             11.14-11.72s    33.14-33.72s
+17   divertir        11.72-13.70s    33.72-35.70s
+
+✓ Analysis saved: analysis_22-36s.json
+
+======================================================================
+CREATING VISUALIZATION
+======================================================================
+✓ Visualization saved: visualization_22-36s.png
+
+======================================================================
+✓ ANALYSIS COMPLETE!
+======================================================================
+
+📊 Summary:
+   Segment: 22s - 36s (duration: 14s)
+   Words transcribed: 17
+   Tempo: 166.7 BPM
+
+📁 Output:
+   Folder: C:\internships\assigment\studio-voice\data\analysis\segment_analysis_2025-11-08_12-21-25
+   Segment audio: segment_22-36s.wav
+   Analysis data: analysis_22-36s.json
+   Visualization: visualization_22-36s.png
+
+✓ Dual time frames recorded:
+   - Relative (0-based): For TTS generation
+   - Absolute (original position): For merging with background music
+======================================================================
+(.venv) PS C:\internships\assigment\studio-voice> python analyze_specific_segment.py
+
+======================================================================
+SPECIFIC SEGMENT ANALYSIS WITH DUAL TIME FRAMES
+======================================================================
+Output folder: segment_analysis_2025-11-08_12-26-07
+
+======================================================================
+EXTRACTING SPECIFIC VOCAL SEGMENT
+======================================================================
+Source: C:\internships\assigment\studio-voice\data\separated\vocals.wav
+Time range: 35.00s - 53.00s
+Duration: 18.00s
+Target lyrics: Part 3: 4 lines (Com a giramila juntos caminhar / Vamos perceber / Como é bom sonhar / E ver o sol brilhar)
+✓ Extracted segment: segment_35-53s.wav
+
+======================================================================
+ANALYZING SEGMENT AUDIO
+======================================================================
+Duration: 18.00s
+Tempo: 129.2 BPM
+Beats: 36
+Onsets detected: 31
+
+======================================================================
+TRANSCRIBING WITH WORD TIMESTAMPS
+======================================================================
+Transcribed: com a giramili juntos caminhar vamos perceber como é bom sonhar e ver o sol brilhar as flores nasceram
+
+#    Word            Relative             Absolute
+----------------------------------------------------------------------
+1    com             0.00-1.44s    35.00-36.44s
+2    a               1.44-1.90s    36.44-36.90s
+3    giramili        1.90-3.80s    36.90-38.80s
+4    juntos          4.86-6.26s    39.86-41.26s
+5    caminhar        6.26-7.00s    41.26-42.00s
+6    vamos           7.66-8.76s    42.66-43.76s
+7    perceber        8.76-9.96s    43.76-44.96s
+8    como            9.96-11.34s    44.96-46.34s
+9    é               11.34-11.50s    46.34-46.50s
+10   bom             11.50-12.12s    46.50-47.12s
+11   sonhar          12.12-13.46s    47.12-48.46s
+12   e               13.46-14.08s    48.46-49.08s
+13   ver             14.08-14.44s    49.08-49.44s
+14   o               14.44-15.40s    49.44-50.40s
+15   sol             15.40-15.76s    50.40-50.76s
+16   brilhar         15.76-16.46s    50.76-51.46s
+17   as              16.94-17.60s    51.94-52.60s
+18   flores          17.60-17.86s    52.60-52.86s
+19   nasceram        17.86-17.98s    52.86-52.98s
+
+✓ Analysis saved: analysis_35-53s.json
+
+======================================================================
+CREATING VISUALIZATION
+======================================================================
+✓ Visualization saved: visualization_35-53s.png
+
+======================================================================
+✓ ANALYSIS COMPLETE!
+======================================================================
+
+📊 Summary:
+   Segment: 35s - 53s (duration: 18s)
+   Words transcribed: 19
+   Tempo: 129.2 BPM
+
+📁 Output:
+   Folder: C:\internships\assigment\studio-voice\data\analysis\segment_analysis_2025-11-08_12-26-07
+   Segment audio: segment_35-53s.wav
+   Analysis data: analysis_35-53s.json
+   Visualization: visualization_35-53s.png
+
+✓ Dual time frames recorded:
+   - Relative (0-based): For TTS generation
+   - Absolute (original position): For merging with background music
+======================================================================
+(.venv) PS C:\internships\assigment\studio-voice> 
+
+(.venv) PS C:\internships\assigment\studio-voice> python analyze_specific_segment.py
+
+======================================================================
+SPECIFIC SEGMENT ANALYSIS WITH DUAL TIME FRAMES
+======================================================================
+Output folder: segment_analysis_2025-11-08_12-37-07
+
+======================================================================
+EXTRACTING SPECIFIC VOCAL SEGMENT
+======================================================================
+Source: C:\internships\assigment\studio-voice\data\separated\vocals.wav
+Time range: 79.00s - 93.00s
+Duration: 14.00s
+Target lyrics: Part 5: 4 lines (1:19 to 1:33) - Pegue minha mão, vem cá / O segredo vou te contar / Com giramila e vem dançar / Num castelo vem brincar
+✓ Extracted segment: segment_79-93s.wav
+
+======================================================================
+ANALYZING SEGMENT AUDIO
+======================================================================
+Duration: 14.00s
+Tempo: 143.6 BPM
+Beats: 30
+Onsets detected: 24
+
+======================================================================
+TRANSCRIBING WITH WORD TIMESTAMPS
+======================================================================
+Transcribed: Pegue minha mão, vem cá Um segredo vou te contar Com Jiramili vem dançar Num castelo vem brincar
+
+#    Word            Relative             Absolute
+----------------------------------------------------------------------
+1    Pegue           0.00-0.84s    79.00-79.84s
+2    minha           0.84-1.28s    79.84-80.28s
+3    mão             1.28-1.58s    80.28-80.58s
+4    vem             2.18-2.18s    81.18-81.18s
+5    cá              2.18-2.64s    81.18-81.64s
+6    Um              2.94-4.18s    81.94-83.18s
+7    segredo         4.18-4.78s    83.18-83.78s
+8    vou             4.78-5.16s    83.78-84.16s
+9    te              5.16-6.34s    84.16-85.34s
+10   contar          6.34-6.78s    85.34-85.78s
+11   Com             6.78-7.46s    85.78-86.46s
+12   Jiramili        7.46-8.10s    86.46-87.10s
+13   vem             8.10-8.66s    87.10-87.66s
+14   dançar          8.66-9.74s    87.66-88.74s
+15   Num             9.94-11.18s    88.94-90.18s
+16   castelo         11.18-11.64s    90.18-90.64s
+17   vem             11.64-12.36s    90.64-91.36s
+18   brincar         12.36-13.26s    91.36-92.26s
+
+✓ Analysis saved: analysis_79-93s.json
+
+======================================================================
+CREATING VISUALIZATION
+======================================================================
+✓ Visualization saved: visualization_79-93s.png
+
+======================================================================
+✓ ANALYSIS COMPLETE!
+======================================================================
+
+📊 Summary:
+   Segment: 79s - 93s (duration: 14s)
+   Words transcribed: 18
+   Tempo: 143.6 BPM
+
+📁 Output:
+   Folder: C:\internships\assigment\studio-voice\data\analysis\segment_analysis_2025-11-08_12-37-07
+   Segment audio: segment_79-93s.wav
+   Analysis data: analysis_79-93s.json
+   Visualization: visualization_79-93s.png
+
+✓ Dual time frames recorded:
+   - Relative (0-based): For TTS generation
+   - Absolute (original position): For merging with background music
+======================================================================
+(.venv) PS C:\internships\assigment\studio-voice> 
+
+
+PS C:\internships\assigment\studio-voice> python generate_all_spanish_segments.py
+failed to import ttsfrd, use wetext instead
+======================================================================
+MULTI-SEGMENT SPANISH VOCAL GENERATION
+======================================================================
+
+Found 6 segment folders
+
+🎶 Loading CosyVoice-300M model...
+Downloading Model to directory: C:\Users\vivek\.cache\modelscope\hub\iic/CosyVoice-300M
+2025-11-08 13:39:23,764 DEBUG Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-11-08 13:39:26,383 DEBUG https://www.modelscope.cn:443 "GET /api/v1/models/iic/CosyVoice-300M/revisions HTTP/1.1" 200 318
+2025-11-08 13:39:27,062 DEBUG https://www.modelscope.cn:443 "GET /api/v1/models/iic/CosyVoice-300M/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-11-08 13:39:33,840 INFO input frame rate=50
+Downloading Model to directory: C:\Users\vivek\.cache\modelscope\hub\pengzhendong/wetext
+2025-11-08 13:39:37,570 DEBUG Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-11-08 13:39:39,925 DEBUG https://www.modelscope.cn:443 "GET /api/v1/models/pengzhendong/wetext/revisions HTTP/1.1" 200 222
+2025-11-08 13:39:40,434 DEBUG https://www.modelscope.cn:443 "GET /api/v1/models/pengzhendong/wetext/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+Downloading Model to directory: C:\Users\vivek\.cache\modelscope\hub\pengzhendong/wetext
+2025-11-08 13:39:40,681 DEBUG Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-11-08 13:39:42,865 DEBUG https://www.modelscope.cn:443 "GET /api/v1/models/pengzhendong/wetext/revisions HTTP/1.1" 200 222
+2025-11-08 13:39:43,439 DEBUG https://www.modelscope.cn:443 "GET /api/v1/models/pengzhendong/wetext/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+✅ Model loaded!
+
+======================================================================
+PROCESSING PART1
+======================================================================
+📁 Audio: segment_6-23s_trimmed.wav
+📄 Analysis: analysis_6-23s_trimmed.json
+📊 Duration: 15.72s, Words: 18
+
+======================================================================
+CREATING 4 LINE CHUNKS FROM JSON ANALYSIS
+======================================================================
+Total words: 18
+Dividing into 4 lines (~4 words each)
+
+✓ Line 1: 3.46s (1.32s - 4.68s)
+   Words: 0-4 (5 words)
+   Portuguese: Pegue minha mão vem cá
+   Spanish: Toma mi mano, ven aquí
+   Avg Pitch: 451.4 Hz
+   Avg Energy: -14.0 dB
+
+✓ Line 2: 4.02s (4.68s - 8.60s)
+   Words: 5-9 (5 words)
+   Portuguese: Um segredo vou te contar
+   Spanish: Un secreto te voy a contar
+   Avg Pitch: 526.5 Hz
+   Avg Energy: -10.0 dB
+
+✓ Line 3: 3.14s (8.60s - 11.64s)
+   Words: 10-13 (4 words)
+   Portuguese: Com jiramili vem dançar
+   Spanish: Con Giramila ven a bailar
+   Avg Pitch: 436.9 Hz
+   Avg Energy: -7.1 dB
+
+✓ Line 4: 4.13s (11.64s - 15.72s)
+   Words: 14-17 (4 words)
+   Portuguese: Num castelo vem brincar
+   Spanish: En un castillo ven a jugar
+   Avg Pitch: 549.1 Hz
+   Avg Energy: -9.8 dB
+
+✓ Created exactly 4 line chunks
+
+🎤 Generating Spanish for Line 1...
+   Text: Toma mi mano, ven aquí
+   Duration: 3.46s
+   Target Pitch: 451.4 Hz
+   Reference duration: 3.46s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:39:57,497 INFO synthesis text Toma mi mano, ven aquí.
+2025-11-08 13:40:35,709 INFO yield speech len 3.1927437641723357, rtf 11.96835153482177
+100%|█████████████████████████████████████████████████████████| 1/1 [00:41<00:00, 41.55s/it]
+
+✅ Generated: 3.19s @ 22050Hz
+   ✓ Good sync: 0.27s difference
+
+🎤 Generating Spanish for Line 2...
+   Text: Un secreto te voy a contar
+   Duration: 4.02s
+   Target Pitch: 526.5 Hz
+   Reference duration: 4.02s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:40:38,213 INFO synthesis text Un secreto te voy a contar.
+2025-11-08 13:41:13,309 INFO yield speech len 2.8792743764172335, rtf 12.189117190428078
+100%|█████████████████████████████████████████████████████████| 1/1 [00:37<00:00, 37.56s/it]
+
+✅ Generated: 2.88s @ 22050Hz
+   ⚠️  Time difference: 1.14s from reference
+
+🎤 Generating Spanish for Line 3...
+   Text: Con Giramila ven a bailar
+   Duration: 3.14s
+   Target Pitch: 436.9 Hz
+   Reference duration: 3.14s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:41:15,480 INFO synthesis text Con Giramila ven a bailar.
+2025-11-08 13:41:42,300 INFO yield speech len 2.414875283446712, rtf 11.106071272381365      
+100%|█████████████████████████████████████████████████████████| 1/1 [00:28<00:00, 28.91s/it] 
+
+✅ Generated: 2.41s @ 22050Hz
+   ⚠️  Time difference: 0.73s from reference
+
+🎤 Generating Spanish for Line 4...
+   Text: En un castillo ven a jugar
+   Duration: 4.13s
+   Target Pitch: 549.1 Hz
+   Reference duration: 4.13s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:41:45,151 INFO synthesis text En un castillo ven a jugar.
+2025-11-08 13:43:35,958 INFO yield speech len 3.1927437641723357, rtf 34.705430035902694
+100%|████████████████████████████████████████████████████████| 1/1 [01:53<00:00, 113.42s/it]
+
+✅ Generated: 3.19s @ 22050Hz
+   ⚠️  Time difference: 0.94s from reference
+
+======================================================================
+MERGING SPANISH CHUNKS
+======================================================================
+2025-11-08 13:43:36,155 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part1_line_1.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 1: 3.19s
+2025-11-08 13:43:36,471 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part1_line_2.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 2: 2.88s
+2025-11-08 13:43:36,697 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part1_line_3.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 3: 2.42s
+2025-11-08 13:43:36,897 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part1_line_4.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 4: 3.19s
+
+✅ Merged: 11.68s
+
+✓ part1 complete: spanish_part1_merged.wav
+
+======================================================================
+PROCESSING PART2
+======================================================================
+📁 Audio: segment_22-36s.wav
+📄 Analysis: analysis_22-36s.json
+📊 Duration: 14.00s, Words: 17
+
+======================================================================
+CREATING 4 LINE CHUNKS FROM JSON ANALYSIS
+======================================================================
+Total words: 17
+Dividing into 4 lines (~4 words each)
+
+✓ Line 1: 4.43s (0.00s - 4.38s)
+   Words: 0-4 (5 words)
+   Portuguese: Não terá rainha mar Nem
+   Spanish: No habrá reina mala
+   Avg Pitch: 596.9 Hz
+   Avg Energy: -11.8 dB
+
+✓ Line 2: 3.04s (4.38s - 7.32s)
+   Words: 5-8 (4 words)
+   Portuguese: bruxa pra espantar Ser
+   Spanish: Ni bruja que espantar
+   Avg Pitch: 565.2 Hz
+   Avg Energy: -9.3 dB
+
+✓ Line 3: 2.38s (7.32s - 9.60s)
+   Words: 9-12 (4 words)
+   Portuguese: amiga é ser feliz
+   Spanish: Ser amiga, ser feliz
+   Avg Pitch: 520.5 Hz
+   Avg Energy: -8.2 dB
+
+✓ Line 4: 4.20s (9.60s - 13.70s)
+   Words: 13-16 (4 words)
+   Portuguese: Vem vamos nos divertir
+   Spanish: Ven, vamos a divertirnos
+   Avg Pitch: 547.2 Hz
+   Avg Energy: -9.4 dB
+
+✓ Created exactly 4 line chunks
+
+🎤 Generating Spanish for Line 1...
+   Text: No habrá reina mala
+   Duration: 4.43s
+   Target Pitch: 596.9 Hz
+   Reference duration: 4.43s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:43:41,701 INFO synthesis text No habrá reina mala.
+2025-11-08 13:44:20,139 INFO yield speech len 2.414875283446712, rtf 15.917408035154669
+100%|█████████████████████████████████████████████████████████| 1/1 [00:42<00:00, 42.98s/it]
+
+✅ Generated: 2.41s @ 22050Hz
+   ⚠️  Time difference: 2.02s from reference
+
+🎤 Generating Spanish for Line 2...
+   Text: Ni bruja que espantar
+   Duration: 3.04s
+   Target Pitch: 565.2 Hz
+   Reference duration: 3.04s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:44:22,913 INFO synthesis text Ni bruja que espantar.
+2025-11-08 13:44:53,003 INFO yield speech len 2.5193650793650795, rtf 11.943419104922683
+100%|█████████████████████████████████████████████████████████| 1/1 [00:32<00:00, 32.76s/it]
+
+✅ Generated: 2.52s @ 22050Hz
+   ⚠️  Time difference: 0.52s from reference
+
+🎤 Generating Spanish for Line 3...
+   Text: Ser amiga, ser feliz
+   Duration: 2.38s
+   Target Pitch: 520.5 Hz
+   Reference duration: 2.38s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:44:54,631 INFO synthesis text Ser amiga, ser feliz.
+2025-11-08 13:45:20,540 INFO yield speech len 2.391655328798186, rtf 10.833293420163173
+100%|█████████████████████████████████████████████████████████| 1/1 [00:27<00:00, 27.50s/it]
+
+✅ Generated: 2.39s @ 22050Hz
+   ✓ Good sync: 0.01s difference
+
+🎤 Generating Spanish for Line 4...
+   Text: Ven, vamos a divertirnos
+   Duration: 4.20s
+   Target Pitch: 547.2 Hz
+   Reference duration: 4.20s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:45:23,129 INFO synthesis text Ven, vamos a divertirnos.
+2025-11-08 13:46:00,081 INFO yield speech len 2.6354648526077096, rtf 14.021117462148883
+100%|█████████████████████████████████████████████████████████| 1/1 [00:39<00:00, 39.48s/it]
+
+✅ Generated: 2.64s @ 22050Hz
+   ⚠️  Time difference: 1.56s from reference
+
+======================================================================
+MERGING SPANISH CHUNKS
+======================================================================
+2025-11-08 13:46:00,238 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part2_line_1.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 1: 2.42s
+2025-11-08 13:46:00,491 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part2_line_2.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 2: 2.52s
+2025-11-08 13:46:00,657 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part2_line_3.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 3: 2.39s
+2025-11-08 13:46:00,928 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part2_line_4.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 4: 2.63s
+
+✅ Merged: 9.96s
+
+✓ part2 complete: spanish_part2_merged.wav
+
+======================================================================
+PROCESSING PART3
+======================================================================
+📁 Audio: segment_35-53s_trimmed.wav
+📄 Analysis: analysis_35-53s_trimmed.json
+📊 Duration: 16.46s, Words: 16
+
+======================================================================
+CREATING 4 LINE CHUNKS FROM JSON ANALYSIS
+======================================================================
+Total words: 16
+Dividing into 4 lines (~4 words each)
+
+✓ Line 1: 6.31s (0.00s - 6.26s)
+   Words: 0-3 (4 words)
+   Portuguese: com a giramili juntos
+   Spanish: Con Giramila juntos caminar
+   Avg Pitch: 508.3 Hz
+   Avg Energy: -5.9 dB
+
+✓ Line 2: 5.18s (6.26s - 11.34s)
+   Words: 4-7 (4 words)
+   Portuguese: caminhar vamos perceber como
+   Spanish: Vamos a percibir
+   Avg Pitch: 661.7 Hz
+   Avg Energy: -9.1 dB
+
+✓ Line 3: 2.84s (11.34s - 14.08s)
+   Words: 8-11 (4 words)
+   Portuguese: é bom sonhar e
+   Spanish: Qué bonito es soñar
+   Avg Pitch: 643.6 Hz
+   Avg Energy: -6.7 dB
+
+✓ Line 4: 2.43s (14.08s - 16.46s)
+   Words: 12-15 (4 words)
+   Portuguese: ver o sol brilhar
+   Spanish: Y ver brillar el sol
+   Avg Pitch: 655.5 Hz
+   Avg Energy: -4.8 dB
+
+✓ Created exactly 4 line chunks
+
+🎤 Generating Spanish for Line 1...
+   Text: Con Giramila juntos caminar
+   Duration: 6.31s
+   Target Pitch: 508.3 Hz
+   Reference duration: 6.31s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:46:05,655 INFO synthesis text Con Giramila juntos caminar.
+2025-11-08 13:49:03,960 INFO yield speech len 3.053424036281179, rtf 58.39519706721145
+100%|████████████████████████████████████████████████████████| 1/1 [03:02<00:00, 182.85s/it]
+
+✅ Generated: 3.05s @ 22050Hz
+   ⚠️  Time difference: 3.26s from reference
+
+🎤 Generating Spanish for Line 2...
+   Text: Vamos a percibir
+   Duration: 5.18s
+   Target Pitch: 661.7 Hz
+   Reference duration: 5.18s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:49:07,484 INFO synthesis text Vamos a percibir.
+2025-11-08 13:49:46,886 INFO yield speech len 2.693514739229025, rtf 14.62857857776067
+100%|█████████████████████████████████████████████████████████| 1/1 [00:42<00:00, 42.83s/it]
+
+✅ Generated: 2.69s @ 22050Hz
+   ⚠️  Time difference: 2.49s from reference
+
+🎤 Generating Spanish for Line 3...
+   Text: Qué bonito es soñar
+   Duration: 2.84s
+   Target Pitch: 643.6 Hz
+   Reference duration: 2.84s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:49:48,754 INFO synthesis text Qué bonito es soñar.
+2025-11-08 13:50:19,626 INFO yield speech len 2.7980045351473923, rtf 11.033484569646387
+100%|█████████████████████████████████████████████████████████| 1/1 [00:32<00:00, 32.66s/it]
+
+✅ Generated: 2.80s @ 22050Hz
+   ✓ Good sync: 0.04s difference
+
+🎤 Generating Spanish for Line 4...
+   Text: Y ver brillar el sol
+   Duration: 2.43s
+   Target Pitch: 655.5 Hz
+   Reference duration: 2.43s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:50:21,201 INFO synthesis text Y ver brillar el sol.
+2025-11-08 13:50:52,266 INFO yield speech len 2.7980045351473923, rtf 11.101226097251061
+100%|█████████████████████████████████████████████████████████| 1/1 [00:32<00:00, 32.61s/it]
+
+✅ Generated: 2.80s @ 22050Hz
+   ✓ Good sync: 0.37s difference
+
+======================================================================
+MERGING SPANISH CHUNKS
+======================================================================
+2025-11-08 13:50:52,514 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part3_line_1.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 1: 3.05s
+2025-11-08 13:50:53,070 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part3_line_2.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 2: 2.69s
+2025-11-08 13:50:53,282 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part3_line_3.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 3: 2.80s
+2025-11-08 13:50:53,482 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part3_line_4.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 4: 2.80s
+
+✅ Merged: 11.34s
+
+✓ part3 complete: spanish_part3_merged.wav
+
+======================================================================
+PROCESSING PART4
+======================================================================
+📁 Audio: segment_52-70s.wav
+📄 Analysis: analysis_52-70s.json
+📊 Duration: 18.00s, Words: 23
+
+======================================================================
+CREATING 4 LINE CHUNKS FROM JSON ANALYSIS
+======================================================================
+Total words: 23
+Dividing into 4 lines (~5 words each)
+⚠️  Warning: Expected 4 Spanish lines, got 5
+
+✓ Line 1: 4.07s (0.00s - 4.02s)
+   Words: 0-5 (6 words)
+   Portuguese: As flores nós vamos regar E
+   Spanish: Las flores vamos a regar
+   Avg Pitch: 777.1 Hz
+   Avg Energy: -7.8 dB
+
+✓ Line 2: 5.76s (4.02s - 9.68s)
+   Words: 6-11 (6 words)
+   Portuguese: assistir crescer Com a amizade que
+   Spanish: Y verlas crecer
+   Avg Pitch: 699.2 Hz
+   Avg Energy: -6.9 dB
+
+✓ Line 3: 3.26s (9.68s - 12.84s)
+   Words: 12-17 (6 words)
+   Portuguese: eu sinto Só eu e você
+   Spanish: Con la amistad que siento
+   Avg Pitch: 565.6 Hz
+   Avg Energy: -5.8 dB
+
+✓ Line 4: 4.48s (12.84s - 17.22s)
+   Words: 18-22 (5 words)
+   Portuguese: Amigos para sempre vamos ser
+   Spanish: Solo tú y yo
+   Avg Pitch: 621.2 Hz
+   Avg Energy: -5.8 dB
+
+✓ Created exactly 4 line chunks
+
+🎤 Generating Spanish for Line 1...
+   Text: Las flores vamos a regar
+   Duration: 4.07s
+   Target Pitch: 777.1 Hz
+   Reference duration: 4.07s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 13:50:56,480 INFO synthesis text Las flores vamos a regar.
+2025-11-08 14:06:49,566 INFO yield speech len 2.4961451247165534, rtf 381.82327201459987
+100%|████████████████████████████████████████████████████████| 1/1 [15:55<00:00, 955.88s/it]
+
+✅ Generated: 2.50s @ 22050Hz
+   ⚠️  Time difference: 1.57s from reference
+
+🎤 Generating Spanish for Line 2...
+   Text: Y verlas crecer
+   Duration: 5.76s
+   Target Pitch: 699.2 Hz
+   Reference duration: 5.76s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 14:06:53,653 INFO synthesis text Y verlas crecer.
+2025-11-08 14:11:51,047 INFO yield speech len 1.3699773242630386, rtf 217.07816838752476     
+100%|████████████████████████████████████████████████████████| 1/1 [05:01<00:00, 301.43s/it] 
+
+✅ Generated: 1.37s @ 22050Hz
+   ⚠️  Time difference: 4.39s from reference
+
+🎤 Generating Spanish for Line 3...
+   Text: Con la amistad que siento
+   Duration: 3.26s
+   Target Pitch: 565.6 Hz
+   Reference duration: 3.26s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 14:11:53,440 INFO synthesis text Con la amistad que siento.
+2025-11-08 14:12:29,279 INFO yield speech len 2.36843537414966, rtf 15.132091477896799
+100%|█████████████████████████████████████████████████████████| 1/1 [00:38<00:00, 38.19s/it]
+
+✅ Generated: 2.37s @ 22050Hz
+   ⚠️  Time difference: 0.89s from reference
+
+🎤 Generating Spanish for Line 4...
+   Text: Solo tú y yo
+   Duration: 4.48s
+   Target Pitch: 621.2 Hz
+   Reference duration: 4.48s @ 16kHz
+  0%|                                                                 | 0/1 [00:00<?, ?it/s]2025-11-08 14:12:32,322 INFO synthesis text Solo tú y yo.
+2025-11-08 14:13:12,035 INFO yield speech len 2.391655328798186, rtf 16.604777841005944
+100%|█████████████████████████████████████████████████████████| 1/1 [00:42<00:00, 42.72s/it]
+
+✅ Generated: 2.39s @ 22050Hz
+   ⚠️  Time difference: 2.09s from reference
+
+======================================================================
+MERGING SPANISH CHUNKS
+======================================================================
+2025-11-08 14:13:13,692 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part4_line_1.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 1: 2.50s
+2025-11-08 14:13:15,216 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part4_line_2.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 2: 1.37s
+2025-11-08 14:13:15,499 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part4_line_3.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 3: 2.37s
+2025-11-08 14:13:15,720 DEBUG subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', 'C:\\internships\\assigment\\studio-voice\\data\\generated_vocals\\spanish_part4_line_4.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+✓ Added Line 4: 2.39s
+
+✅ Merged: 8.63s
+
+✓ part4 complete: spanish_part4_merged.wav
+
+⚠️  Skipping segment_analysis_2025-11-08_12-37-07 - no mapping found
+
+⚠️  Skipping segment_analysis_2025-11-08_12-40-25 - no mapping found
+
+======================================================================
+✓ ALL SEGMENTS PROCESSED!
+======================================================================
+
+📁 Generated Spanish vocals:
+   part1: spanish_part1_merged.wav
+   part2: spanish_part2_merged.wav
+   part3: spanish_part3_merged.wav
+   part4: spanish_part4_merged.wav
+
+💡 Note: Part 5 & 6 can reuse Part 1 & 2 (they are identical)
+======================================================================
+(.venv) PS C:\internships\assigment\studio-voice>

@@ -1,0 +1,133 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenvs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Audio Data Files (large files)
+data/raw/*.mp3
+data/raw/*.wav
+data/raw/*.flac
+data/separated/*.wav
+data/separated/*.mp3
+data/separated/chunks/
+data/separated/mdx_extra/
+
+# Generated Vocals (output files - keep structure but ignore large audio)
+data/generated_vocals/*.wav
+data/generated_vocals/*.mp3
+!data/generated_vocals/.gitkeep
+
+# Analysis Files (keep JSON, ignore audio)
+data/analysis/*/segment_*.wav
+data/analysis/*/visualization_*.png
+!data/analysis/*/*.json
+
+# Temporary Chunks
+data/temp_chunks/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+Thumbs.db
+Desktop.ini
+
+# Model Cache
+.cache/
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# CosyVoice Model Files (too large for Git)
+external/CosyVoice/.git/
+external/CosyVoice/pretrained_models/
+external/CosyVoice/exp/
+external/CosyVoice/data/
+external/CosyVoice/*.tar.gz
+external/CosyVoice/*.zip
+
+# ModelScope Cache (downloaded models)
+.modelscope/
+*.modelscope/
+
+# FFmpeg binaries
+ffmpeg/
+ffmpeg.exe
+ffprobe.exe
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation Build
+docs/_build/
+site/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Audio Processing Artifacts
+*.peaks
+*.reapeaks
+*.sfk
+
+# Git LFS (if using for large files)
+*.lfs.*
